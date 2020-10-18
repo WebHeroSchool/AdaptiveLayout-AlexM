@@ -1,0 +1,155 @@
+@media (min-width: 150px) {
+	.wrap__title {
+		font-size: 15px;
+	}
+
+	.wrap__text {
+		font-size: 10px;
+	}
+}
+
+@media (min-width: 320px) {
+    .wrap__title {
+    	font-size: 20px;
+    }
+
+    .wrap__text {
+    	font-size: 14px;
+    }
+}
+
+@media (min-width: 481px) {
+	.wrap__title {
+		font-size: 20px;
+	}
+
+    .wrap__text {
+    	font-size: 14px;
+    }
+}
+
+@media (min-width: 641px) {
+    .wrap__title {
+    	font-size: 24px;
+    }
+
+    .wrap__text {
+    	font-size: 16px;
+    }
+}
+
+@media (min-width: 961px) {
+	.wrap__title {
+		font-size: 24px;
+	}
+
+    .wrap__text {
+    	font-size: 16px;
+    }
+}
+
+@media (min-width: 1025px) {
+	.wrap__title {
+		font-size: 28px;
+	}
+
+    .wrap__text {
+    	font-size: 18px;
+    }
+}
+
+* {
+	background-color: #000;
+}
+
+.wrap__title {
+	font-family: sans-serif;
+	text-align: center;
+	color: #EEE;
+	padding-top: 10px;
+}
+
+.wrap__text {
+	color: #FFF;
+}
+
+.nav {
+	display: flex;
+	justify-content: flex-end; /* разместим справа */
+	background: #008aff;
+	visibility: hidden;
+}
+
+.nav a {
+	color: #fff;
+	padding: 15px 10px;
+	text-decoration: none;
+	text-align: center;
+}
+
+.nav a:hover {
+	background:#5c8db7;
+}
+
+@media all and (min-width: 800px) {
+	.nav {
+		justify-content: space-around;
+	}
+
+	.nav a {
+		flex-grow: 1;
+	}
+}
+
+/* меньше 800px */
+@media all and (max-width: 800px) {
+	.nav {
+		justify-content: space-around;
+	}
+
+	.nav a {
+		flex-grow: 1;
+	/* растягиваться на всю ширину */
+	}
+}
+
+/* меньше 500px */
+@media all and (max-width: 500px) {
+	.nav {
+		flex-direction: column;
+	}
+}
+
+
+.container {
+    cursor: pointer;
+}
+
+.b1, .b2, .b3 {
+    width: 36px;
+    height: 5px;
+    background-color: #AAA;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+.change .b1 {
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .b3 {
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.change .b2 {
+	opacity: 0;
+}
+
+#toggle-menu {
+	display: none;
+}
+
+#toggle-menu:checked + .nav {
+	display: flex;
+	visibility: visible;
+}
