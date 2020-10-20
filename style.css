@@ -50,23 +50,23 @@
 	}
 
 	.container {
-    	cursor: pointer;
+		cursor: pointer;
 	}
 
 	.b1, .b2, .b3 {
-    	width: 36px;
-    	height: 5px;
-    	background-color: #AAA;
-    	margin: 5px 0;
-    	transition: 0.3s;
+		width: 36px;
+		height: 5px;
+		background-color: #AAA;
+		margin: 5px 0;
+		transition: 0.3s;
 	}
 
 	.change .b1 {
-  	    transform: rotate(-45deg) translate(-9px, 6px);
+		transform: rotate(-45deg) translate(-9px, 6px);
 	}
 
 	.change .b3 {
-    	transform: rotate(45deg) translate(-8px, -8px);
+		transform: rotate(45deg) translate(-8px, -8px);
 	}
 
 	.change .b2 {
@@ -85,15 +85,15 @@
 }
 
 @media (min-width: 320px) {
-    .wrap__title {
-    	font-size: 15px;
-    }
+	.wrap__title {
+		font-size: 15px;
+	}
 
-    .wrap__text {
-    	font-size: 10px;
-    }
+	.wrap__text {
+		font-size: 10px;
+	}
 
-    .nav {
+	.nav {
 		justify-content: space-around;
 		flex-direction: column;
 		display: block
@@ -104,23 +104,23 @@
 	}
 
 	.container {
-    	cursor: pointer;
+		cursor: pointer;
 	}
 
 	.b1, .b2, .b3 {
-    	width: 36px;
-    	height: 5px;
-    	background-color: #AAA;
-    	margin: 5px 0;
-    	transition: 0.3s;
+		width: 36px;
+		height: 5px;
+		background-color: #AAA;
+		margin: 5px 0;
+		transition: 0.3s;
 	}
 
 	.change .b1 {
-  	    transform: rotate(-45deg) translate(-9px, 6px);
+		transform: rotate(-45deg) translate(-9px, 6px);
 	}
 
 	.change .b3 {
-    	transform: rotate(45deg) translate(-8px, -8px);
+		transform: rotate(45deg) translate(-8px, -8px);
 	}
 
 	.change .b2 {
@@ -143,11 +143,11 @@
 		font-size: 20px;
 	}
 
-    .wrap__text {
-    	font-size: 14px;
-    }
+	.wrap__text {
+		font-size: 14px;
+	}
 
-    .nav {
+	.nav {
 		justify-content: center;
 		display: block;
 	}
@@ -156,24 +156,24 @@
 		flex-grow: 1;
 	}
 
-    .container {
-    	cursor: pointer;
+	.container {
+		cursor: pointer;
 	}
 
 	.b1, .b2, .b3 {
-    	width: 36px;
-    	height: 5px;
-    	background-color: #AAA;
-    	margin: 5px 0;
-    	transition: 0.3s;
+		width: 36px;
+		height: 5px;
+		background-color: #AAA;
+		margin: 5px 0;
+		transition: 0.3s;
 	}
 
 	.change .b1 {
-  	    transform: rotate(-45deg) translate(-9px, 6px);
+		transform: rotate(-45deg) translate(-9px, 6px);
 	}
 
 	.change .b3 {
-    	transform: rotate(45deg) translate(-8px, -8px);
+		transform: rotate(45deg) translate(-8px, -8px);
 	}
 
 	.change .b2 {
@@ -192,15 +192,15 @@
 }
 
 @media (min-width: 641px) {
-    .wrap__title {
-    	font-size: 24px;
-    }
+	.wrap__title {
+		font-size: 24px;
+	}
 
-    .wrap__text {
-    	font-size: 16px;
-    }
+	.wrap__text {
+		font-size: 16px;
+	}
 
-    .nav {
+	.nav {
 		justify-content: center;
 		display: block;
 	}
@@ -210,23 +210,23 @@
 	}
 
 	.container {
-    	cursor: pointer;
+		cursor: pointer;
 	}
 
 	.b1, .b2, .b3 {
-    	width: 36px;
-    	height: 5px;
-    	background-color: #AAA;
-    	margin: 5px 0;
-    	transition: 0.3s;
+		width: 36px;
+		height: 5px;
+		background-color: #AAA;
+		margin: 5px 0;
+		transition: 0.3s;
 	}
 
 	.change .b1 {
-  	    transform: rotate(-45deg) translate(-9px, 6px);
+		transform: rotate(-45deg) translate(-9px, 6px);
 	}
 
 	.change .b3 {
-    	transform: rotate(45deg) translate(-8px, -8px);
+		transform: rotate(45deg) translate(-8px, -8px);
 	}
 
 	.change .b2 {
@@ -253,15 +253,14 @@
 		font-size: 20px;
 	}
 
-    .container {
-    	display: none;
-    }
+	.container {
+		display: none;
+	}
 
-    .nav {
+	.nav {
 		display: flex;
 		flex-direction: row;
 		position: relative;
 		visibility: visible;
 	}
 }
-
